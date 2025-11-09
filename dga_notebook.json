@@ -3,7 +3,7 @@
   "nbformat_minor": 0,
   "metadata": {
     "colab": {
-      "name": "DGA_Classification.ipynb",
+      "name": "dga_notebook.ipynb",
       "provenance": [],
       "authorship_tag": "ABX9TyPdFznM5RrOY9gxOzMxblX5",
       "include_colab_link": true
@@ -24,7 +24,7 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/kdemertzis/EKPA/blob/main/DGA_Classification.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/mars600/l3594-c1-u2/blob/main/dga_notebook.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -65,7 +65,7 @@
       },
       "source": [
         "# εισαγωγή του συνόλου δεδομένων\n",
-        "url = 'https://raw.githubusercontent.com/kdemertzis/EKPA/main/Data/dga_2class.csv'\n",
+        "url = 'https://raw.githubusercontent.com/mars600/l3594-c1-u2/refs/heads/main/data/dga_domain.csv'\n",
         "df = pd.read_csv(url)\n",
         "# έλεγχος σχήματος συνόλου δεδομένων\n",
         "print(df.shape)"
